@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/margin"
+        >
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/imgHeight"
+            android:contentDescription="@null"
+            android:layout_marginBottom="@dimen/marginBottom"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/depo" />
+        <TextView
+            android:id="@+id/lblGirisYap"
+            style="@style/baslik"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/txtKayitOl"
+            android:layout_marginBottom="@dimen/marginBottom"
+            android:textStyle="bold"
+            android:textSize="@dimen/baslikTextSize" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/ePostaWrapper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:boxStrokeWidth="@dimen/sıfır">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txtEposta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/marginBottom"
+                android:backgroundTint="@color/editText_color"
+                android:hint="@string/activity_giris_txtEposta"
+                android:inputType="textEmailAddress"
+                android:minHeight="@dimen/minHeight" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/sifreWrapper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:boxStrokeWidth="@dimen/sıfır"
+            app:endIconMode="password_toggle">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txtSifre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/marginBottom"
+                android:backgroundTint="@color/editText_color"
+                android:hint="@string/activity_giris_txtSifre"
+                android:inputType="textPassword"
+                android:minHeight="@dimen/minHeight" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnGirisYap"
+            android:textAppearance="@style/TextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/marginTop"
+            android:layout_marginBottom="@dimen/marginBottom"
+            android:text="@string/activity_giris_lblGirisYap" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnKayitOl"
+            android:textAppearance="@style/TextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/activity_giris_btnKayitOl" />
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

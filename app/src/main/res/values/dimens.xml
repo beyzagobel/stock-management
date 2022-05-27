@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="fab_margin">16dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <dimen name="floatingMaxSize">40dp</dimen>
+    <dimen name="floatingweight">0.1</dimen>
+    <dimen name="txtTumUrunlerHeight">30dp</dimen>
+    <dimen name="boxStrokeWidth">0dp</dimen>
+    <dimen name="sıfır">0px</dimen>
+    <dimen name="textInputTextSize">14sp</dimen>
+    <dimen name="rcyWeight">0.6</dimen>
+    <dimen name="fabMarginStart">300dp</dimen>
+    <dimen name="elemenUrunler">75dp</dimen>
+    <dimen name="elemenUrunlerSize">40dp</dimen>
+    <dimen name="elemenUrunlerTextSize">18sp</dimen>
+    <dimen name="marginRight">10dp</dimen>
+    <dimen name="marginLeft">10dp</dimen>
+    <dimen name="margin">40dp</dimen>
+    <dimen name="floatingMargin">10dp</dimen>
+    <dimen name="marginTop">10dp</dimen>
+    <dimen name="marginBottom">10dp</dimen>
+    <dimen name="elemenDepolar">50dp</dimen>
+    <dimen name="elemenDepolarTextSize">20sp</dimen>
+    <dimen name="baseMargin">20dp</dimen>
+    <dimen name="imgHeight">180dp</dimen>
+    <dimen name="baslikTextSize">22sp</dimen>
+    <dimen name="tumIslemler">17sp</dimen>
+    <dimen name="altBaslikTextSize">20sp</dimen>
+    <dimen name="cornerRadius">10dp</dimen>
+    <dimen name="AnasayfaButton">110dp</dimen>
+    <dimen name="lblKayitOlTextSize">40sp</dimen>
+    <dimen name="textSize">20sp</dimen>
+    <dimen name="minHeight">50dp</dimen>
+
+</resources>

@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Depo</string>
+    <string name="title_activity_hesap_yok">HesapYok</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+
+    <string name="txtTumUrunler">TÜM ÜRÜNLER</string>
+    <string name="txtTumDepolar">TÜM DEPOLAR</string>
+    <string name="btnKaydet">KAYDET</string>
+    <string name="btnGuncelle">GÜNCELLE</string>
+    <string name="txtKayitOl">KAYIT OL</string>
+
+    <string name="activity_giris_title">Hoşgeldiniz, \nLütfen Giriş Yapınız</string>
+    <string name="activity_giris_txtEposta">E-Posta</string>
+    <string name="activity_giris_txtSifre">Şifre</string>
+    <string name="activity_giris_chkBeniHatirla">Beni Hatırla</string>
+    <string name="activity_giris_BtnGirisYap">Giriş Yap</string>
+    <string name="activity_giris_googleGiriş">Google Giriş</string>
+    <string name="activity_giris_lblGirisYap">Giriş Yap</string>
+    <string name="activity_giris_btnKayitOl">Kayıtlı Değil Misin? Kayit Ol</string>
+
+
+    <string name="activity_anasayfa_title">HOŞGELDİNİZ</string>
+    <string name="activity_anasayfa_tumIslemler">TÜM İŞLEMLER</string>
+    <string name="activity_anasayfa_btnDepolar">DEPOLAR</string>
+    <string name="activity_anasayfa_btnDepoEkle">DEPO EKLE</string>
+    <string name="activity_anasayfa_btnUrunEkle">Urun Ekle</string>
+    <string name="activity_anasayfa_btnUrunler">Urunler</string>
+
+
+    <string name="activity_kayit_ol_lblKayitOl">Kayıt Ol</string>
+    <string name="activity_kayit_ol_txtAdSoyad">Ad-Soyad</string>
+    <string name="activity_kayit_ol_txtSifreYeniden">Şifreyi Tekrar Giriniz</string>
+    <string name="activity_kayit_ol_btnKayitOl">KAYIT OL</string>
+    <string name="activity_kayit_ol_btnGoogleKayitOl">Google ile Kayıt Ol</string>
+
+    <string name="activity_depo_ekle_txtDepoAd">DEPO ADI</string>
+    <string name="activity_depo_ekle_txtDepoNo">DEPO NO</string>
+    <string name="activity_depo_ekle_txtDepoAdres">DEPO ADRES</string>
+    <string name="activity_depo_ekle_txtDepoUrunKategori">DEPO ÜRÜN KATEGORİSİ</string>
+    <string name="activity_depo_ekle_btnDepoEkle">DEPO EKLE</string>
+    <string name="activity_depo_ekle_title">DEPONUZU ÖZELLEŞTİRİN</string>
+
+    <string name="activity_urun_ekle_depolar">DEPOLAR</string>
+
+    <string name="activity_urun_ekle_txtUrunAdi">URUN ADI :</string>
+    <string name="activity_urun_ekle_txtUrunAdeti">URUN ADETİ :</string>
+    <string name="activity_urun_ekle_txtBarkod">BARKOD :</string>
+
+    <string name="activity_depolar_lblTümDepolar">-TÜM DEPOLAR-</string>
+    <string name="activity_urun_ekle_lbldepoAdi">DEPO ADI :</string>
+</resources>

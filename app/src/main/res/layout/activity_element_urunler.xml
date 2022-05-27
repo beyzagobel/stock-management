@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/elemenUrunler"
+    tools:context=".ElementUrunlerActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorSecondary"
+        android:tag="reveal-right">
+
+        <ImageView
+            android:id="@+id/imgDelete"
+            android:layout_width="@dimen/elemenUrunlerSize"
+            android:layout_height="@dimen/elemenUrunlerSize"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/marginLeft"
+            android:src="@drawable/baseline_delete_black_18" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorSecondary"
+        android:tag="reveal-left">
+
+        <ImageView
+            android:layout_width="@dimen/elemenUrunlerSize"
+            android:layout_height="@dimen/elemenUrunlerSize"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/marginRight"
+            android:src="@drawable/baseline_edit_black_18" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:tag="front"
+        >
+            <TextView
+                android:id="@+id/lblUrunAdi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:textSize="@dimen/elemenUrunlerTextSize"
+                android:inputType="text"
+                android:layout_marginTop="@dimen/marginTop"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginBottom="@dimen/marginBottom"
+                android:layout_marginLeft="@dimen/marginLeft"/>
+
+
+            <TextView
+                android:id="@+id/lblUrunAdeti"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/marginTop"
+                android:inputType="number"
+                android:singleLine="true"
+                android:layout_marginRight="@dimen/marginRight"
+                android:textSize="@dimen/elemenUrunlerTextSize"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="@dimen/marginBottom"
+                />
+            <TextView
+                android:id="@+id/lblBarkod"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:textSize="18dp"
+                android:inputType="number"
+                android:layout_marginRight="@dimen/marginRight"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/lblUrunAdeti"/>
+
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

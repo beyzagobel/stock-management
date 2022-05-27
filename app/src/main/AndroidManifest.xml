@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="beyzagobel.depo">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/depo_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/depo_icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Depo">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/AppTheme.Launcher">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ElementUrunlerActivity"
+            android:exported="true" />
+        <activity
+            android:name=".UrunlerActivity"
+            android:exported="true"
+            android:parentActivityName=".DepolarActivity" />
+        <activity
+            android:name=".AnasayfaActivity"
+            android:exported="true" />
+        <activity
+            android:name=".DepolarActivity"
+            android:exported="true"
+            android:parentActivityName=".AnasayfaActivity" />
+        <activity
+            android:name=".ElementDepolarActivity"
+            android:exported="true" />
+        <activity
+            android:name=".DepoEkleActivity"
+            android:exported="true"
+            android:parentActivityName=".DepolarActivity" />
+        <activity
+            android:name=".UrunEkleActivity"
+            android:exported="true"
+            android:parentActivityName=".UrunlerActivity" />
+    </application>
+
+</manifest>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/baseMargin"
+    android:orientation="vertical"
+    tools:context=".DepoEkleActivity">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/depoAdWrapper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:boxStrokeWidth="@dimen/sıfır">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txtDepoAdi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/marginBottom"
+            android:backgroundTint="@color/editText_color"
+            android:hint="@string/activity_depo_ekle_txtDepoAd"
+            android:inputType="text" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnKaydet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnKaydet" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnGuncelle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnGuncelle" />
+
+
+</LinearLayout>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "539577351727",
+    "project_id": "depo-47446",
+    "storage_bucket": "depo-47446.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:539577351727:android:efb3cdbbbb6d8b6ae2d0da",
+        "android_client_info": {
+          "package_name": "beyzagobel.depo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "539577351727-h9520o4qhdle4bapgq5er33nss9vfih6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "beyzagobel.depo",
+            "certificate_hash": "7cd02f97970a31b7780960fe29829bd828b0ddaa"
+          }
+        },
+        {
+          "client_id": "539577351727-ocq6rili542m0l27pf0hkan07hc2gcsp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAu0-V-EpAP3tsOLCVqB3K9mrpLXPzTF44"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "539577351727-ocq6rili542m0l27pf0hkan07hc2gcsp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

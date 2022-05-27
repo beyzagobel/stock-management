@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/baseMargin"
+    android:orientation="vertical"
+    tools:context=".UrunEkleActivity">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/urunAdiWrapper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:boxStrokeWidth="@dimen/boxStrokeWidth">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txtUrunAdi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/marginBottom"
+            android:backgroundTint="@color/editText_color"
+            android:hint="@string/activity_urun_ekle_txtUrunAdi"
+            android:inputType="text"
+            android:textSize="@dimen/textInputTextSize" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/barkodWrapper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:boxStrokeWidth="@dimen/boxStrokeWidth">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txtBarkod"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/marginBottom"
+            android:backgroundTint="@color/editText_color"
+            android:hint="@string/activity_urun_ekle_txtBarkod"
+            android:inputType="number"
+            android:textSize="@dimen/textInputTextSize" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/urunAdetiWrapper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:boxStrokeWidth="@dimen/boxStrokeWidth">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txtUrunAdeti"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/marginBottom"
+            android:backgroundTint="@color/editText_color"
+            android:hint="@string/activity_urun_ekle_txtUrunAdeti"
+            android:inputType="number"
+            android:textSize="@dimen/textInputTextSize" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnUrunKaydet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnKaydet" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnUrunGuncelle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnGuncelle" />
+
+
+</LinearLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/byzgb/Desktop/Depo/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1925" />
+        <entry key="..\:/Users/byzgb/Desktop/Depo/app/src/main/res/layout/activity_anasayfa.xml" value="0.264" />
+        <entry key="..\:/Users/byzgb/Desktop/Depo/app/src/main/res/layout/activity_depo_ekle.xml" value="0.1" />
+        <entry key="..\:/Users/byzgb/Desktop/Depo/app/src/main/res/layout/activity_depolar.xml" value="0.1" />
+        <entry key="..\:/Users/byzgb/Desktop/Depo/app/src/main/res/layout/activity_deponun_urunleri_spinner.xml" value="0.1" />
+        <entry key="..\:/Users/byzgb/Desktop/Depo/app/src/main/res/layout/activity_element_depolar.xml" value="0.1" />
+        <entry key="..\:/Users/byzgb/Desktop/Depo/app/src/main/res/layout/activity_element_urunler.xml" value="0.1" />
+        <entry key="..\:/Users/byzgb/Desktop/Depo/app/src/main/res/layout/activity_kayit_ol.xml" value="0.2" />
+        <entry key="..\:/Users/byzgb/Desktop/Depo/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/byzgb/Desktop/Depo/app/src/main/res/layout/activity_qrcode_scanner.xml" value="0.12158054711246201" />
+        <entry key="..\:/Users/byzgb/Desktop/Depo/app/src/main/res/layout/activity_recyclerview.xml" value="0.13405797101449277" />
+        <entry key="..\:/Users/byzgb/Desktop/Depo/app/src/main/res/layout/activity_urun_ekle.xml" value="0.264" />
+        <entry key="..\:/Users/byzgb/Desktop/Depo/app/src/main/res/layout/activity_urunler.xml" value="0.1" />
+        <entry key="..\:/Users/byzgb/Desktop/Depo/app/src/main/res/menu/eklemenu.xml" value="0.1" />
+        <entry key="..\:/Users/byzgb/Desktop/Depo/app/src/main/res/menu/kayitol.xml" value="0.25" />
+        <entry key="..\:/Users/byzgb/Desktop/Depo/app/src/main/res/menu/main.xml" value="0.24615384615384617" />
+        <entry key="..\:/Users/byzgb/Desktop/Depo/app/src/main/res/menu/search.xml" value="0.2" />
+        <entry key="..\:/Users/byzgb/Desktop/Depo/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.151" />
+        <entry key="..\:/Users/byzgb/Desktop/Depo/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
